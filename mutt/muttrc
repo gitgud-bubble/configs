@@ -1,0 +1,18 @@
+set folder =  "imaps://myuser@domain@outlook.office365.com:993"
+
+set smtp_url = "smtp://myuser@domain@smtp.office365.com:587"
+
+set smtp_pass = "password"
+set imap_pass = "password"
+set from = "myuser@domain"
+#set realname = "realname"
+
+
+set spoolfile = "+INBOX"
+#set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Other
+
+source colors.muttrc #colors from Luke Smith's config files
