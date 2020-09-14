@@ -216,4 +216,4 @@ bindsym $mod+Shift+n exec konsole -e "vim /home/bubblesplash/.config/i3/config"
 # My startup progs
 exec --no-startup-id nitrogen --restore
 #exec_always
-
+exec_always "setxkbmap -option 'grp:alt_shift_toggle' -layout us,es"
