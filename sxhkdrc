@@ -1,0 +1,28 @@
+#terminal emulator
+super + Return
+	urxvt
+
+#program launcher
+super + d
+	dmenu_run
+
+#browser
+super + w
+	firefox
+
+#reload config
+super + shift + r
+	systemctl --user restart sxhkd
+
+#kill active window
+super + shift + q
+	wmctrl -c :ACTIVE:
+
+#notes
+super + n
+	mousepad ~/notas
+
+#sxhkdrc edit
+super + shift + n
+	mousepad ~/.config/sxhkd/sxhkdrc
+	
