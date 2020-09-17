@@ -12,7 +12,7 @@ super + w
 
 #reload config
 super + shift + r
-	systemctl --user restart sxhkd
+	pkill -USR1 -x sxhkd
 
 #kill active window
 super + shift + q
@@ -25,4 +25,31 @@ super + n
 #sxhkdrc edit
 super + shift + n
 	mousepad ~/.config/sxhkd/sxhkdrc
+
+#file manager
+super + e
+	thunar
+#config files
+super + shift + e
+	thunar ~/.config
+
+#suspend
+super + shift + p
+	systemctl suspend
+
+#Lower volume
+super + F2
+	pactl -- set-sink-volume 0 -5%
+
+#Raise volume
+super + F3
+	pactl -- set-sink-volume 0 +5%
+
+#Volume 0
+super + F1
+	pactl -- set-sink-volume 0 0%
+
+#Volume 50%
+super + shift + F1
+	pactl -- set-sink-volume 0 50%
 	
