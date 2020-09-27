@@ -1,1 +1,2 @@
 vim zsh zsh-autosuggestions zsh-syntax-highlighting firmware-realtek git qutebrowser neofetch lolcat fortune-mod fortune-anarchism fortunes fortunes-debian-hints gtypist
+change shell with chsh -s $(which zsh), remember the which command lol
