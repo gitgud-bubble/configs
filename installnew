@@ -1,2 +1,2 @@
-vim zsh zsh-autosuggestions zsh-syntax-highlighting firmware-realtek git qutebrowser neofetch lolcat fortune-mod fortune-anarchism fortunes fortunes-debian-hints gtypist geany geany-plugins sxhkd wmctrl nitrogen
+vim zsh zsh-autosuggestions zsh-syntax-highlighting firmware-realtek git qutebrowser neofetch lolcat fortune-mod fortune-anarchism fortunes fortunes-debian-hints gtypist geany geany-plugins sxhkd wmctrl nitrogen htop
 change shell with chsh -s $(which zsh), remember the which command lol
